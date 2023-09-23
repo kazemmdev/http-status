@@ -7,94 +7,94 @@ namespace Kazemmdev\HttpStatus;
 use Kazemmdev\HttpStatus\Exceptions\UndefinedException;
 
 /**
- * @method static CONTINUE(): int  // return 100
- * @method static SWITCHING_PROTOCOLS(): int // return 101
- * @method static PROCESSING(): int // return 102
- * @method static EARLY_HINTS(): int // return 103
- * @method static OK(): int // return 200
- * @method static CREATED(): int // return 201
- * @method static ACCEPTED(): int // return 202
- * @method static NON_AUTHORITATIVE_INFORMATION(): int // return 203
- * @method static NO_CONTENT(): int // return 204
- * @method static RESET_CONTENT(): int // return 205
- * @method static PARTIAL_CONTENT(): int // return 206
- * @method static MULTI_STATUS(): int // return 207
- * @method static ALREADY_REPORTED(): int // return 208
- * @method static THIS_IS_FINE(): int // return 218
- * @method static IM_USED(): int // return 226
- * @method static MULTIPLE_CHOICES(): int // return 300
- * @method static MOVED_PERMANENTLY(): int // return 301
- * @method static FOUND(): int // return 302
- * @method static SEE_OTHER(): int // return 303
- * @method static NOT_MODIFIED(): int // return 304
- * @method static USE_PROXY(): int // return 305
- * @method static TEMPORARY_REDIRECT(): int // return 307
- * @method static PERMANENT_REDIRECT(): int // return 308
- * @method static BAD_REQUEST(): int // return 400
- * @method static UNAUTHORIZED(): int // return 401
- * @method static PAYMENT_REQUIRED(): int // return 402
- * @method static FORBIDDEN(): int // return 403
- * @method static NOT_FOUND(): int // return 404
- * @method static METHOD_NOT_ALLOWED(): int // return 405
- * @method static NOT_ACCEPTABLE(): int // return 406
- * @method static PROXY_AUTHENTICATION_REQUIRED(): int // return 407
- * @method static REQUEST_TIMEOUT(): int // return 408
- * @method static CONFLICT(): int // return 409
- * @method static GONE(): int // return 410
- * @method static LENGTH_REQUIRED(): int // return 411
- * @method static PRECONDITION_FAILED(): int // return 412
- * @method static PAYLOAD_TOO_LARGE(): int // return 413
- * @method static URI_TOO_LONG(): int // return 414
- * @method static UNSUPPORTED_MEDIA_TYPE(): int // return 415
- * @method static RANGE_NOT_SATISFIABLE(): int // return 416
- * @method static EXPECTATION_FAILED(): int // return 417
- * @method static I_AM_A_TEAPOT(): int // return 418
- * @method static PAGE_EXPIRED(): int // return 419
- * @method static MISDIRECTED_REQUEST(): int // return 421
- * @method static UNPROCESSABLE_ENTITY(): int // return 422
- * @method static LOCKED(): int // return 423
- * @method static FAILED_DEPENDENCY(): int // return 424
- * @method static TOO_EARLY(): int // return 425
- * @method static UPGRADE_REQUIRED(): int // return 426
- * @method static PRECONDITION_REQUIRED(): int // return 428
- * @method static TOO_MANY_REQUESTS(): int // return 429
- * @method static REQUEST_HEADER_FIELDS_TOO_LARGE(): int // return 431
- * @method static LOGIN_TIME_OUT(): int // return 440
- * @method static NO_RESPONSE(): int // return 444
- * @method static RETRY_WITH(): int // return 449
- * @method static BLOCKED_BY_WINDOWS_PARENTAL_CONTROL(): int // return 450
- * @method static UNAVAILABLE_FOR_LEGAL_REASONS(): int // return 451
- * @method static CLIENT_CLOSED_THE_CONNECTION(): int // return 460
- * @method static X_FORWARDED_FOR_TOO_LARGE(): int // return 463
- * @method static REQUEST_HEADER_TOO_LARGE(): int // return 494
- * @method static SSL_CERTIFICATE_ERROR(): int // return 495
- * @method static SSL_CERTIFICATE_REQUIRED(): int // return 496
- * @method static HTTP_REQUEST_SENT_TO_HTTPS_PORT(): int // return 497
- * @method static INVALID_TOKEN(): int // return 498
- * @method static TOKEN_REQUIRED(): int // return 499
- * @method static INTERNAL_SERVER_ERROR(): int // return 500
- * @method static NOT_IMPLEMENTED(): int // return 501
- * @method static BAD_GATEWAY(): int // return 502
- * @method static SERVICE_UNAVAILABLE(): int // return 503
- * @method static GATEWAY_TIMEOUT(): int // return 504
- * @method static HTTP_VERSION_NOT_SUPPORTED(): int // return 505
- * @method static VARIANT_ALSO_NEGOTIATES(): int // return 506
- * @method static INSUFFICIENT_STORAGE(): int // return 507
- * @method static LOOP_DETECTED(): int // return 508
- * @method static BANDWIDTH_LIMIT_EXCEEDED(): int // return 509
- * @method static NOT_EXTENDED(): int // return 510
- * @method static NETWORK_AUTHENTICATION_REQUIRED(): int // return 511
- * @method static WEB_SERVER_RETURNED_AN_UNKNOWN_ERROR(): int // return 520
- * @method static WEB_SERVER_IS_DOWN(): int // return 521
- * @method static CONNECTION_TIMED_OUT(): int // return 522
- * @method static ORIGIN_IS_UNREACHABLE(): int // return 523
- * @method static A_TIMEOUT_OCCURRED(): int // return 524
- * @method static SSL_HANDSHAKE_FAILED(): int // return 525
- * @method static INVALID_SSL_CERTIFICATE(): int // return 526
- * @method static RAILGUN_ERROR(): int // return 527
- * @method static SITE_IS_OVERLOADED(): int // return 529
- * @method static SITE_IS_FROZEN(): int // return 530
- * @method static NETWORK_READ_TIMEOUT_ERROR(): int // return 598
+ * @method static CONTINUE(): int[100]
+ * @method static SWITCHING_PROTOCOLS(): int[101]
+ * @method static PROCESSING(): int[102]
+ * @method static EARLY_HINTS(): int[103]
+ * @method static OK(): int[200]
+ * @method static CREATED(): int[201]
+ * @method static ACCEPTED(): int[202]
+ * @method static NON_AUTHORITATIVE_INFORMATION(): int[203]
+ * @method static NO_CONTENT(): int[204]
+ * @method static RESET_CONTENT(): int[205]
+ * @method static PARTIAL_CONTENT(): int[206]
+ * @method static MULTI_STATUS(): int[207]
+ * @method static ALREADY_REPORTED(): int[208]
+ * @method static THIS_IS_FINE(): int[218]
+ * @method static IM_USED(): int[226]
+ * @method static MULTIPLE_CHOICES(): int[300]
+ * @method static MOVED_PERMANENTLY(): int[301]
+ * @method static FOUND(): int[302]
+ * @method static SEE_OTHER(): int[303]
+ * @method static NOT_MODIFIED(): int[304]
+ * @method static USE_PROXY(): int[305]
+ * @method static TEMPORARY_REDIRECT(): int[307]
+ * @method static PERMANENT_REDIRECT(): int[308]
+ * @method static BAD_REQUEST(): int[400]
+ * @method static UNAUTHORIZED(): int[401]
+ * @method static PAYMENT_REQUIRED(): int[402]
+ * @method static FORBIDDEN(): int[403]
+ * @method static NOT_FOUND(): int[404]
+ * @method static METHOD_NOT_ALLOWED(): int[405]
+ * @method static NOT_ACCEPTABLE(): int[406]
+ * @method static PROXY_AUTHENTICATION_REQUIRED(): int[407]
+ * @method static REQUEST_TIMEOUT(): int[408]
+ * @method static CONFLICT(): int[409]
+ * @method static GONE(): int[410]
+ * @method static LENGTH_REQUIRED(): int[411]
+ * @method static PRECONDITION_FAILED(): int[412]
+ * @method static PAYLOAD_TOO_LARGE(): int[413]
+ * @method static URI_TOO_LONG(): int[414]
+ * @method static UNSUPPORTED_MEDIA_TYPE(): int[415]
+ * @method static RANGE_NOT_SATISFIABLE(): int[416]
+ * @method static EXPECTATION_FAILED(): int[417]
+ * @method static I_AM_A_TEAPOT(): int[418]
+ * @method static PAGE_EXPIRED(): int[419]
+ * @method static MISDIRECTED_REQUEST(): int[421]
+ * @method static UNPROCESSABLE_ENTITY(): int[422]
+ * @method static LOCKED(): int[423]
+ * @method static FAILED_DEPENDENCY(): int[424]
+ * @method static TOO_EARLY(): int[425]
+ * @method static UPGRADE_REQUIRED(): int[426]
+ * @method static PRECONDITION_REQUIRED(): int[428]
+ * @method static TOO_MANY_REQUESTS(): int[429]
+ * @method static REQUEST_HEADER_FIELDS_TOO_LARGE(): int[431]
+ * @method static LOGIN_TIME_OUT(): int[440]
+ * @method static NO_RESPONSE(): int[444]
+ * @method static RETRY_WITH(): int[449]
+ * @method static BLOCKED_BY_WINDOWS_PARENTAL_CONTROL(): int[450]
+ * @method static UNAVAILABLE_FOR_LEGAL_REASONS(): int[451]
+ * @method static CLIENT_CLOSED_THE_CONNECTION(): int[460]
+ * @method static X_FORWARDED_FOR_TOO_LARGE(): int[463]
+ * @method static REQUEST_HEADER_TOO_LARGE(): int[494]
+ * @method static SSL_CERTIFICATE_ERROR(): int[495]
+ * @method static SSL_CERTIFICATE_REQUIRED(): int[496]
+ * @method static HTTP_REQUEST_SENT_TO_HTTPS_PORT(): int[497]
+ * @method static INVALID_TOKEN(): int[498]
+ * @method static TOKEN_REQUIRED(): int[499]
+ * @method static INTERNAL_SERVER_ERROR(): int[500]
+ * @method static NOT_IMPLEMENTED(): int[501]
+ * @method static BAD_GATEWAY(): int[502]
+ * @method static SERVICE_UNAVAILABLE(): int[503]
+ * @method static GATEWAY_TIMEOUT(): int[504]
+ * @method static HTTP_VERSION_NOT_SUPPORTED(): int[505]
+ * @method static VARIANT_ALSO_NEGOTIATES(): int[506]
+ * @method static INSUFFICIENT_STORAGE(): int[507]
+ * @method static LOOP_DETECTED(): int[508]
+ * @method static BANDWIDTH_LIMIT_EXCEEDED(): int[509]
+ * @method static NOT_EXTENDED(): int[510]
+ * @method static NETWORK_AUTHENTICATION_REQUIRED(): int[511]
+ * @method static WEB_SERVER_RETURNED_AN_UNKNOWN_ERROR(): int[520]
+ * @method static WEB_SERVER_IS_DOWN(): int[521]
+ * @method static CONNECTION_TIMED_OUT(): int[522]
+ * @method static ORIGIN_IS_UNREACHABLE(): int[523]
+ * @method static A_TIMEOUT_OCCURRED(): int[524]
+ * @method static SSL_HANDSHAKE_FAILED(): int[525]
+ * @method static INVALID_SSL_CERTIFICATE(): int[526]
+ * @method static RAILGUN_ERROR(): int[527]
+ * @method static SITE_IS_OVERLOADED(): int[529]
+ * @method static SITE_IS_FROZEN(): int[530]
+ * @method static NETWORK_READ_TIMEOUT_ERROR(): int[598]
  */
 enum Http: int
 {
